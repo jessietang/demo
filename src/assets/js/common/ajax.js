@@ -90,3 +90,7 @@ const ajax = {
   }
 };
 
+export {
+  ajax
+}
+
