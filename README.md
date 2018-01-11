@@ -1,6 +1,6 @@
 # demo
 
-> 闲暇时间写的一个关于vue的demo。暂时实现了以下功能：
+> 闲暇时间写的一个关于vue的demo。暂时实现了以下功能：<br/>
 1.整体页面的一个布局<br/>
 https://github.com/jessietang/demo/raw/master/screenshots/1.png <br/>
 
