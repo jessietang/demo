@@ -11,5 +11,9 @@ https://github.com/jessietang/demo/raw/master/screenshots/2.png <br/>
 https://github.com/jessietang/demo/raw/master/screenshots/3.png <br/>
 https://github.com/jessietang/demo/raw/master/screenshots/4.png <br/>
 
-4.
+4.实现路由跳转有进度条<br/>
+
+5.代码封装<br/>
+  5.1.对ajax请求进行了封装(\demo\src\assets\js\common\ajax.js) <br/>
+  5.2.对sessionStorage和localStorage进行了封装(\demo\src\assets\js\common\storage.js) <br/>
 
