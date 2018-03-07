@@ -11,7 +11,8 @@ Vue.use(Vuex)
 const state = {
   // 侧边栏状态
   sidebar: {
-    opened: !storage.session.get('sidebarStatus')
+    //opened: !storage.session.get('sidebarStatus')
+    opened: true
   },
 
   breadListState:[
@@ -27,13 +28,16 @@ const getters = {
 
 const mutations = {
   TOGGLE_SIDEBAR: (state) => {
-    if (state.sidebar.opened) {
+    /*if (state.sidebar.opened) { // true
       storage.session.set('sidebarStatus', 1)
     } else {
       storage.session.set('sidebarStatus', 0)
-    }
+    }*/
     // 重新设置state
-    state.sidebar.opened = !state.sidebar.opened
+    //alert(storage.session.get('sidebarStatus')); // 1
+    //alert(state.sidebar.opened); // true
+    state.sidebar.opened = !state.sidebar.opened;
+    //alert(state.sidebar.opened); // false
   },
 
   breadListStateAdd(state,obj){
@@ -51,7 +55,7 @@ const mutations = {
 const actions = {
   toggleSideBar: ({commit}) => {
     commit('TOGGLE_SIDEBAR')
-  }
+  },
 };
 
 export default new Vuex.Store({

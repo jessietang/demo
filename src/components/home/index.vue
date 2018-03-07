@@ -33,7 +33,7 @@
       ...mapState([
         'sidebar',
       ]),
-    },
+    }
   }
 
 </script>
