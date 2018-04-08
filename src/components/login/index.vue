@@ -11,7 +11,15 @@
         }
       },
       methods: {
-        goLogin () {
+        goLogin () { 
+          //发起请求 (使用封装的ajax来发请求)
+          /*let sendData = {};
+          ajax.post(`api/doLogin`, sendData).then(data => {
+              console.log('登录成功');
+          }).catch(msg => {
+              console.log('登录失败，请稍后再试！');
+          });*/
+            
           this.$router.push({
             path: '/home'
           });
